@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7f6;
+    color: #333;
+}
+
+.navbar {
+    background: #17324d;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    color: #ffd166;
+}
+
+.hero {
+    background: #2a9d8f;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    background: #ffd166;
+    color: #333;
+    padding: 12px 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.intro {
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.places {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 35px;
+}
+
+.place {
+    background: white;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.place img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+footer {
+    background: #17324d;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.contact-info,
+form {
+    background: white;
+    width: 35%;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 80px;
+}
+
+form button,
+.signup-form button {
+    background: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover,
+.signup-form button:hover {
+    background: #17324d;
+}
+
+.signup-form {
+    background: white;
+    width: 40%;
+    margin: 20px auto 40px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.signup-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.signup-form input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    margin-top: 15px;
+}
